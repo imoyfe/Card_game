@@ -5,12 +5,13 @@ player_two = Player("Manu")
 
 new_deck = Deck()
 new_deck.shuffle()
-split_half = int(len(new_deck.all_cards)/2)
 
 
+# Global variables:
 game_on = True
 round_num = 0
 min_cards = 7 # Minimum number of cards to play WAR
+split_half = int(len(new_deck.all_cards)/2)
 
 
 for x in range(split_half):
